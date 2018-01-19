@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A124D1FF1FA2FF1100436DF9 /* KVFuncHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A124D1FE1FA2FF1100436DF9 /* KVFuncHelper.swift */; };
+		A16036EA1FBBF05000DC1E7C /* KVFuncHelperSwiftParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16036E91FBBF05000DC1E7C /* KVFuncHelperSwiftParse.swift */; };
+		A16036EC1FBBF27100DC1E7C /* KVFuncHelperSwiftStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16036EB1FBBF27100DC1E7C /* KVFuncHelperSwiftStruct.swift */; };
+		A18EF07E1F99C75D009E3457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18EF07D1F99C75D009E3457 /* AppDelegate.swift */; };
+		A18EF0801F99C75E009E3457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18EF07F1F99C75E009E3457 /* Assets.xcassets */; };
+		A18EF0831F99C75E009E3457 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18EF0811F99C75E009E3457 /* MainMenu.xib */; };
+		A18EF0901F99C86F009E3457 /* KVTPMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18EF08F1F99C86F009E3457 /* KVTPMainViewController.swift */; };
+		A18EF0991F99CCBF009E3457 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18EF0981F99CCBF009E3457 /* SnapKit.framework */; };
+		A18EF09A1F99CCBF009E3457 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A18EF0981F99CCBF009E3457 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A18EF09D1F99EB3A009E3457 /* IMXTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18EF09C1F99EB3A009E3457 /* IMXTextView.swift */; };
+		A1C0C32B1FBB042600E15958 /* KVFuncHelperOCParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0C32A1FBB042600E15958 /* KVFuncHelperOCParse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A18EF0911F99CB89009E3457 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18EF0971F99CC4B009E3457 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A18EF09A1F99CCBF009E3457 /* SnapKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A124D1FE1FA2FF1100436DF9 /* KVFuncHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVFuncHelper.swift; sourceTree = "<group>"; };
+		A16036E91FBBF05000DC1E7C /* KVFuncHelperSwiftParse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVFuncHelperSwiftParse.swift; sourceTree = "<group>"; };
+		A16036EB1FBBF27100DC1E7C /* KVFuncHelperSwiftStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVFuncHelperSwiftStruct.swift; sourceTree = "<group>"; };
+		A18EF07A1F99C75D009E3457 /* KVTransferPoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVTransferPoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18EF07D1F99C75D009E3457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A18EF07F1F99C75E009E3457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A18EF0821F99C75E009E3457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A18EF0841F99C75E009E3457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A18EF0851F99C75E009E3457 /* KVTransferPoll.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KVTransferPoll.entitlements; sourceTree = "<group>"; };
+		A18EF08F1F99C86F009E3457 /* KVTPMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVTPMainViewController.swift; sourceTree = "<group>"; };
+		A18EF0981F99CCBF009E3457 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SnapKit.framework; sourceTree = "<group>"; };
+		A18EF09C1F99EB3A009E3457 /* IMXTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMXTextView.swift; sourceTree = "<group>"; };
+		A1C0C32A1FBB042600E15958 /* KVFuncHelperOCParse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVFuncHelperOCParse.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A18EF0771F99C75D009E3457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18EF0991F99CCBF009E3457 /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A124D1FD1FA2FECC00436DF9 /* Funcs */ = {
+			isa = PBXGroup;
+			children = (
+				A124D1FE1FA2FF1100436DF9 /* KVFuncHelper.swift */,
+				A1C0C32A1FBB042600E15958 /* KVFuncHelperOCParse.swift */,
+				A16036E91FBBF05000DC1E7C /* KVFuncHelperSwiftParse.swift */,
+				A16036EB1FBBF27100DC1E7C /* KVFuncHelperSwiftStruct.swift */,
+			);
+			path = Funcs;
+			sourceTree = "<group>";
+		};
+		A18EF0711F99C75D009E3457 = {
+			isa = PBXGroup;
+			children = (
+				A18EF0981F99CCBF009E3457 /* SnapKit.framework */,
+				A18EF07C1F99C75D009E3457 /* KVTransferPoll */,
+				A18EF07B1F99C75D009E3457 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A18EF07B1F99C75D009E3457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A18EF07A1F99C75D009E3457 /* KVTransferPoll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A18EF07C1F99C75D009E3457 /* KVTransferPoll */ = {
+			isa = PBXGroup;
+			children = (
+				A124D1FD1FA2FECC00436DF9 /* Funcs */,
+				A18EF09B1F99EAA8009E3457 /* UIs */,
+				A18EF07D1F99C75D009E3457 /* AppDelegate.swift */,
+				A18EF08F1F99C86F009E3457 /* KVTPMainViewController.swift */,
+				A18EF07F1F99C75E009E3457 /* Assets.xcassets */,
+				A18EF0811F99C75E009E3457 /* MainMenu.xib */,
+				A18EF0841F99C75E009E3457 /* Info.plist */,
+				A18EF0851F99C75E009E3457 /* KVTransferPoll.entitlements */,
+			);
+			path = KVTransferPoll;
+			sourceTree = "<group>";
+		};
+		A18EF09B1F99EAA8009E3457 /* UIs */ = {
+			isa = PBXGroup;
+			children = (
+				A18EF09C1F99EB3A009E3457 /* IMXTextView.swift */,
+			);
+			path = UIs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A18EF0791F99C75D009E3457 /* KVTransferPoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A18EF0881F99C75E009E3457 /* Build configuration list for PBXNativeTarget "KVTransferPoll" */;
+			buildPhases = (
+				A18EF0761F99C75D009E3457 /* Sources */,
+				A18EF0771F99C75D009E3457 /* Frameworks */,
+				A18EF0781F99C75D009E3457 /* Resources */,
+				A18EF0911F99CB89009E3457 /* CopyFiles */,
+				A18EF0971F99CC4B009E3457 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVTransferPoll;
+			productName = KVTransferPoll;
+			productReference = A18EF07A1F99C75D009E3457 /* KVTransferPoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A18EF0721F99C75D009E3457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = panzhow;
+				TargetAttributes = {
+					A18EF0791F99C75D009E3457 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A18EF0751F99C75D009E3457 /* Build configuration list for PBXProject "KVTransferPoll" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A18EF0711F99C75D009E3457;
+			productRefGroup = A18EF07B1F99C75D009E3457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A18EF0791F99C75D009E3457 /* KVTransferPoll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A18EF0781F99C75D009E3457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18EF0801F99C75E009E3457 /* Assets.xcassets in Resources */,
+				A18EF0831F99C75E009E3457 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A18EF0761F99C75D009E3457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18EF0901F99C86F009E3457 /* KVTPMainViewController.swift in Sources */,
+				A16036EA1FBBF05000DC1E7C /* KVFuncHelperSwiftParse.swift in Sources */,
+				A18EF07E1F99C75D009E3457 /* AppDelegate.swift in Sources */,
+				A1C0C32B1FBB042600E15958 /* KVFuncHelperOCParse.swift in Sources */,
+				A124D1FF1FA2FF1100436DF9 /* KVFuncHelper.swift in Sources */,
+				A18EF09D1F99EB3A009E3457 /* IMXTextView.swift in Sources */,
+				A16036EC1FBBF27100DC1E7C /* KVFuncHelperSwiftStruct.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A18EF0811F99C75E009E3457 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A18EF0821F99C75E009E3457 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A18EF0861F99C75E009E3457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A18EF0871F99C75E009E3457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A18EF0891F99C75E009E3457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KVTransferPoll/KVTransferPoll.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = KVTransferPoll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--.--.KVTransferPoll";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A18EF08A1F99C75E009E3457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KVTransferPoll/KVTransferPoll.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = KVTransferPoll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--.--.KVTransferPoll";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A18EF0751F99C75D009E3457 /* Build configuration list for PBXProject "KVTransferPoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18EF0861F99C75E009E3457 /* Debug */,
+				A18EF0871F99C75E009E3457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A18EF0881F99C75E009E3457 /* Build configuration list for PBXNativeTarget "KVTransferPoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18EF0891F99C75E009E3457 /* Debug */,
+				A18EF08A1F99C75E009E3457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A18EF0721F99C75D009E3457 /* Project object */;
+}
